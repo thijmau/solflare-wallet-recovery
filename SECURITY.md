@@ -21,19 +21,6 @@ When reporting:
 
 ---
 
-## Automated Security Monitoring
-
-[![Security Audit](https://github.com/thijmau/solflare-wallet-recovery/actions/workflows/security-audit.yml/badge.svg)](https://github.com/thijmau/solflare-wallet-recovery/actions/workflows/security-audit.yml)
-
-This repository includes automated security auditing via GitHub Actions:
-
-- **Continuous Monitoring**: Runs `npm audit` on every push and pull request
-- **Weekly Scans**: Scheduled scans every Monday at 00:00 UTC to detect newly disclosed vulnerabilities
-- **Build Protection**: Pull requests fail if moderate or higher vulnerabilities are detected
-- **Detailed Reports**: Check the [Actions tab](https://github.com/thijmau/solflare-wallet-recovery/actions) for comprehensive audit reports
-
----
-
 ## Security Considerations
 
 ### Important Warnings
